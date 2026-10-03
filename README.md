@@ -17,3 +17,9 @@ Each row ends with the limitation the project's own README admits to.
 
 <!-- TODO(harshit): OrienterNet-Location-Predictor and AI-Nav-SLAM-Explorer have empty READMEs.
      Add a one-line description of each here if you want them featured. -->
+
+## Now and before
+
+- **Now:** AI/Software Engineer intern at Teemo.ai (remote). <!-- TODO(harshit): one line on what you work on, only what you're comfortable making public -->
+- **Before:** AI research at DRDO's Young Scientist Lab. <!-- TODO(harshit): one line on the topic or project -->
+- **Heading toward:** applied ML, starting from MLOps.
