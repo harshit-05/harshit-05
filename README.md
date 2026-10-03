@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Harshit Deswal: Applied ML, MLOps, Computer Vision">
+  <img src="assets/header-light.svg" width="100%" alt="Harshit Deswal: ML Engineer, Applied ML, Computer Vision">
 </picture>
 
 <p align="center">
@@ -24,7 +24,7 @@
 </picture>
 
 - 🔭 Building **RAG_QA_System v0.3**: HTTP API, reranking and an evaluation gate
-- 🎯 Heading for applied ML, coming in through MLOps
+- 🎯 Aiming for ML engineering: taking models from notebook to tested, deployed systems
 - 🛰️ At DRDO: real-time detection in PyTorch (35+ FPS on live video), NLP pipelines and a SLAM prototype
 - 🐧 Daily driver: Arch Linux
 - 📫 [harshitdeswal17@gmail.com](mailto:harshitdeswal17@gmail.com)

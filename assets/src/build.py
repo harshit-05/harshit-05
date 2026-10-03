@@ -47,7 +47,7 @@ def header(t):
         nodes.append([(x, top + i * 52) for i in range(n)])
     edges = [(a, b) for l in range(len(nodes) - 1) for a in nodes[l] for b in nodes[l + 1]]
 
-    parts = [f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Harshit Deswal: Applied ML, MLOps, computer vision">
+    parts = [f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="Harshit Deswal: ML Engineer, applied ML, computer vision">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{t['bg']}"/><stop offset="1" stop-color="{t['bg2']}"/></linearGradient>
   <linearGradient id="ink" x1="0" x2="1"><stop offset="0" stop-color="{t['accent']}"/><stop offset="1" stop-color="{t['accent2']}"/></linearGradient>
@@ -71,7 +71,7 @@ def header(t):
 <rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="16" fill="none" stroke="{t['border']}"/>
 <text x="60" y="78" class="mono fade">~/harshit-05 $ python profile.py</text>
 <text x="60" y="146" class="name fade d1">Harshit Deswal</text>
-<text x="60" y="190" class="sub fade d2">Applied ML · MLOps · Computer Vision</text>
+<text x="60" y="190" class="sub fade d2">ML Engineer · Applied ML · Computer Vision</text>
 <g clip-path="url(#type)"><text x="60" y="238" class="cmd">&gt; tested, reproducible, honest about limits</text></g>
 <rect x="60" y="222" width="10" height="20" fill="{t['accent3']}" class="cur">
   <animate attributeName="x" from="60" to="528" begin="0.6s" dur="2.6s" fill="freeze"/></rect>
@@ -114,7 +114,7 @@ TERMINAL = [
     ("$ cat before.md", "cmd"),
     ("AI/ML research intern @ DRDO Young Scientist Lab", "out"),
     ("$ ls interests/", "cmd"),
-    ("applied-ml/  mlops/  rag/  computer-vision/  slam/", "dir"),
+    ("ml-engineering/  applied-ml/  rag/  computer-vision/  slam/", "dir"),
 ]
 
 
