@@ -18,11 +18,18 @@ Each row ends with the limitation the project's own README admits to.
 <!-- TODO(harshit): OrienterNet-Location-Predictor and AI-Nav-SLAM-Explorer have empty READMEs.
      Add a one-line description of each here if you want them featured. -->
 
-## Now and before
+## Experience
 
-- **Now:** AI/Software Engineer intern at Teemo.ai (remote). <!-- TODO(harshit): one line on what you work on, only what you're comfortable making public -->
-- **Before:** AI research at DRDO's Young Scientist Lab. <!-- TODO(harshit): one line on the topic or project -->
-- **Heading toward:** applied ML, starting from MLOps.
+**AI/Software Engineer Intern, Teemo.ai** (remote) <!-- TODO(harshit): resume says Feb 2026 - Aug 2026; confirm whether this is ongoing -->
+- Built the backend for a multi-tenant school platform: 230+ REST endpoints across 26 FastAPI domain modules on PostgreSQL (async SQLAlchemy, 72 Alembic migrations), with JWT and Google sign-in and tenant-scoped access control.
+- Implemented AI grading for photographed student work: a background job sends images to a vision LLM (provider chosen by config), and a teacher reviews the score and rubric breakdown before any grade is released.
+- Put email, push notifications, background jobs and the AI provider behind swappable interfaces, so the same code runs on local mocks or real providers.
+- Wrote 1,100+ pytest tests plus AWS CDK stacks (ECS Fargate, RDS, S3, CloudFront) and GitHub Actions workflows that deploy the API and web apps.
+
+**AI/ML Research Intern, DRDO Young Scientist Laboratory (AI)**, Bangalore
+- Built real-time object detection pipelines in PyTorch that ran at 35+ FPS on live video.
+- Optimized NLP pipelines for domain-specific text analysis, benchmarking accuracy and latency before and after each change.
+- Prototyped a real-time SLAM system on multi-sensor data and measured trajectory accuracy and end-to-end latency.
 
 ## Recent activity
 
