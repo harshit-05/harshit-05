@@ -9,6 +9,14 @@
   AI/Software Engineer intern at Teemo.ai. Previously AI research at DRDO's Young Scientist Lab.
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake.svg">
+    <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake.svg">
+  </picture>
+</p>
+
 ## Featured work
 
 ### [RAG_QA_System](https://github.com/harshit-05/RAG_QA_System)
