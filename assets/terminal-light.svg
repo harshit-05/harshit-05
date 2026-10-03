@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 354" width="640" height="354" role="img" aria-label="whoami terminal">
+<style>
+  .l { font: 400 14.5px ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace; opacity: 0; animation: show .01s forwards; }
+  @keyframes show { to { opacity: 1; } }
+  .cur { opacity: 0; animation: show .01s 3.90s forwards, blink 1s 3.90s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+<rect x=".5" y=".5" width="639" height="353" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<path d="M.5 40.5h639" stroke="#d0d7de"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f57"/><circle cx="42" cy="20" r="6" fill="#febc2e"/><circle cx="62" cy="20" r="6" fill="#28c840"/>
+<text x="320.0" y="25" text-anchor="middle" fill="#59636e" style="font:400 13px ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace">harshit@arch: ~</text>
+<text x="24" y="74" fill="#1a7f37" class="l" style="animation-delay:0.30s">$ whoami</text>
+<text x="24" y="104" fill="#1f2328" class="l" style="animation-delay:0.75s">Harshit Deswal · B.Tech CS &amp; Communication Eng. · class of 2027</text>
+<text x="24" y="134" fill="#1a7f37" class="l" style="animation-delay:1.20s">$ cat now.md</text>
+<text x="24" y="164" fill="#1f2328" class="l" style="animation-delay:1.65s">AI/Software Engineer intern @ Teemo.ai (remote)</text>
+<text x="24" y="194" fill="#1a7f37" class="l" style="animation-delay:2.10s">$ cat before.md</text>
+<text x="24" y="224" fill="#1f2328" class="l" style="animation-delay:2.55s">AI/ML research intern @ DRDO Young Scientist Lab</text>
+<text x="24" y="254" fill="#1a7f37" class="l" style="animation-delay:3.00s">$ ls interests/</text>
+<text x="24" y="284" fill="#0969da" class="l" style="animation-delay:3.45s">backend/  infra/  mlops/  ml-engineering/  rag/  cv/</text>
+<text x="24" y="314" fill="#1a7f37" class="l" style="animation-delay:3.90s">$</text>
+<rect x="40" y="300" width="9" height="18" fill="#1a7f37" class="cur"/>
+</svg>
