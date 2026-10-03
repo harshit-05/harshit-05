@@ -18,6 +18,10 @@
 </picture>
 </td>
 <td width="45%" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/training-dark.svg">
+  <img src="assets/training-light.svg" width="100%" alt="Illustration: loss curves drawing over 50 epochs">
+</picture>
 
 - 🔭 Building **RAG_QA_System v0.3**: HTTP API, reranking and an evaluation gate
 - 🎯 Heading for applied ML, coming in through MLOps
@@ -29,6 +33,11 @@
 </tr>
 </table>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
+
 ## 🛠️ Tech stack
 
 <p align="center">
@@ -38,13 +47,60 @@
   </picture>
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
+
 ## 🚀 Featured work
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### 🔎 [RAG_QA_System](https://github.com/harshit-05/RAG_QA_System)
 
 Local, config-driven Q&A over your own documents. Answers cite their sources and nothing leaves your machine.
 
 `Python` `LangChain` `FAISS` `Ollama` `uv` `pytest` `mypy` `GitHub Actions`
+
+- **Engineering:** config validated before anything loads; CI blocks on lint, types, tests (80% coverage floor) and a dependency audit
+- **Honest limitation:** answers can misstate facts and faithfulness isn't measured yet (an evaluation gate is on the roadmap); on CPU, answers take minutes
+
+</td>
+<td width="50%" valign="middle">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rag-dark.svg">
+  <img src="assets/rag-light.svg" width="100%" alt="Illustration: question embedded, five nearest chunks retrieved from FAISS, cited answer generated">
+</picture>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="middle">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tracking-dark.svg">
+  <img src="assets/tracking-light.svg" width="100%" alt="Illustration: people tracked with boxes and IDs, one marked as suspect with a zoomed picture-in-picture view">
+</picture>
+</td>
+<td width="50%" valign="top">
+
+### 🎯 [suspect_tracking_system](https://github.com/harshit-05/suspect_tracking_system)
+
+Real-time person detection and tracking on CCTV footage. Click a bounding box to follow someone in a zoomed picture-in-picture view.
+
+`Python` `PyTorch` `OpenCV` `YOLOv8` `DeepSORT`
+
+- **Engineering:** detector and tracker live in separate modules, with wrappers for both DeepSORT and ByteTrack
+- **Honest limitation:** `main.py` can't run until a pending ByteTrack fix lands; the DeepSORT evaluation pipeline works
+
+</td>
+</tr>
+</table>
+
+<sub>Animations are illustrations of how each pipeline works, not recordings of real output.</sub>
+
+<details>
+<summary><b>RAG_QA_System pipeline</b></summary>
 
 ```mermaid
 flowchart LR
@@ -57,14 +113,10 @@ flowchart LR
     L --> A[Streamed answer + sources]
 ```
 
-- **Engineering:** config validated before anything loads; CI blocks on lint, types, tests (80% coverage floor) and a dependency audit
-- **Honest limitation:** answers can misstate facts and faithfulness isn't measured yet (an evaluation gate is on the roadmap); on CPU, answers take minutes
+</details>
 
-### 🎯 [suspect_tracking_system](https://github.com/harshit-05/suspect_tracking_system)
-
-Real-time person detection and tracking on CCTV footage. Click a bounding box to follow someone in a zoomed picture-in-picture view.
-
-`Python` `PyTorch` `OpenCV` `YOLOv8` `DeepSORT`
+<details>
+<summary><b>suspect_tracking_system pipeline</b></summary>
 
 ```mermaid
 flowchart LR
@@ -78,11 +130,15 @@ flowchart LR
     Z --> O
 ```
 
-- **Engineering:** detector and tracker live in separate modules, with wrappers for both DeepSORT and ByteTrack
-- **Honest limitation:** `main.py` can't run until a pending ByteTrack fix lands; the DeepSORT evaluation pipeline works
+</details>
 
 <!-- TODO(harshit): OrienterNet-Location-Predictor and AI-Nav-SLAM-Explorer have empty READMEs.
      Add a short description of each here if you want them featured. -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
 
 ## 📊 GitHub stats
 
@@ -118,6 +174,11 @@ flowchart LR
   </picture>
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
+
 ## 🐍 Contribution snake
 
 <p align="center">
@@ -128,6 +189,11 @@ flowchart LR
   </picture>
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
+
 ## ⚡ Recent activity
 
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
@@ -135,6 +201,11 @@ Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 <!--START_ACTIVITY-->
 - [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): close s2-1 and point the board at s2-2 (2026-10-02)
 <!--END_ACTIVITY-->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
 
 ## 🤝 Connect
 
