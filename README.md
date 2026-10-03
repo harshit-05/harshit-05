@@ -41,11 +41,7 @@ _No recent public activity._
 
 ## Stack
 
-- **Languages:** Python, Java, SQL, C
-- **Backend:** FastAPI, PostgreSQL, SQLAlchemy, Alembic, Pydantic, REST, JWT, OAuth/OIDC
-- **ML:** PyTorch, OpenCV, YOLOv8, LangChain, FAISS, Ollama, Hugging Face
-- **Cloud and tooling:** AWS (ECS, RDS, S3, CloudFront, CDK), Docker, GitHub Actions, Linux, uv, ruff, mypy, pytest
-- **Certifications:** Red Hat System Administration I (RH124), Oracle DevOps Professional
+Python · PyTorch · OpenCV · YOLOv8 · LangChain · FAISS · Ollama · FastAPI · PostgreSQL · AWS · Docker · GitHub Actions
 
 ## Contact
 
