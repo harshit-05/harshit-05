@@ -1,13 +1,33 @@
-<h1 align="center">Harshit Deswal</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="100%" alt="Harshit Deswal: Applied ML, MLOps, Computer Vision">
+</picture>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=520&lines=Applied+ML+%C2%B7+MLOps+as+my+way+in;RAG+pipelines+%C2%B7+computer+vision;Tested%2C+reproducible%2C+honest+about+limits" alt="Applied ML, RAG pipelines, computer vision" />
+  <img src="https://komarev.com/ghpvc/?username=harshit-05&label=profile%20views&color=58a6ff&style=flat-square" alt="profile views">
 </p>
 
-<p align="center">
-  Third-year B.Tech student in Computer Science &amp; Communication Engineering (graduating 2027).<br>
-  AI/Software Engineer intern at Teemo.ai. Previously AI research at DRDO's Young Scientist Lab.
-</p>
+## 👨‍💻 About me
+
+<table>
+<tr>
+<td width="55%" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
+  <img src="assets/terminal-light.svg" width="100%" alt="whoami: Harshit Deswal, B.Tech CS and Communication Engineering, class of 2027. Now: AI/Software Engineer intern at Teemo.ai. Before: AI/ML research intern at DRDO Young Scientist Lab.">
+</picture>
+</td>
+<td width="45%" valign="top">
+
+- 🔭 Building **RAG_QA_System v0.3**: HTTP API, reranking and an evaluation gate
+- 🎯 Heading for applied ML, coming in through MLOps
+- 🛰️ At DRDO: real-time detection in PyTorch (35+ FPS on live video), NLP pipelines and a SLAM prototype
+- 🐧 Daily driver: Arch Linux
+- 📫 [harshitdeswal17@gmail.com](mailto:harshitdeswal17@gmail.com)
+
+</td>
+</tr>
+</table>
 
 <p align="center">
   <picture>
