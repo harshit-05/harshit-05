@@ -23,3 +23,13 @@ Each row ends with the limitation the project's own README admits to.
 - **Now:** AI/Software Engineer intern at Teemo.ai (remote). <!-- TODO(harshit): one line on what you work on, only what you're comfortable making public -->
 - **Before:** AI research at DRDO's Young Scientist Lab. <!-- TODO(harshit): one line on the topic or project -->
 - **Heading toward:** applied ML, starting from MLOps.
+
+## Stack
+
+Only what's in the projects above.
+
+- **Languages:** Python
+- **ML:** PyTorch, LangChain, FAISS, Ollama, YOLOv8 (Ultralytics), DeepSORT
+- **Tooling:** uv, ruff, mypy, pytest, GitHub Actions
+
+<!-- TODO(harshit): add anything else you've really used (e.g. Docker, FastAPI, TypeScript), especially from Teemo.ai/DRDO. -->
