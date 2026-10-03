@@ -24,7 +24,8 @@
 </picture>
 
 - 🔭 Building **RAG_QA_System v0.3**: HTTP API, reranking and an evaluation gate
-- 🎯 ML-adjacent backend & infra: the APIs, pipelines, CI and deployments that put models into production
+- 🎯 Backend & infra engineer who works close to ML: APIs, data, CI and deployments, with or without a model in the loop
+- ⚙️ Day to day: FastAPI services on PostgreSQL, shipped with Docker, GitHub Actions and AWS
 - 🛰️ At DRDO: real-time detection in PyTorch (35+ FPS on live video), NLP pipelines and a SLAM prototype
 - 🐧 Daily driver: Arch Linux
 - 📫 [harshitdeswal17@gmail.com](mailto:harshitdeswal17@gmail.com)
