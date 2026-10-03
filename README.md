@@ -49,5 +49,5 @@ _Not generated yet. Run the "Update recent activity" workflow once after merging
 
 ## Contact
 
-- Email: <!-- TODO(harshit): email --> 
-- LinkedIn: <!-- TODO(harshit): LinkedIn URL -->
+- Email: [harshitdeswal17@gmail.com](mailto:harshitdeswal17@gmail.com)
+- LinkedIn: [harshit-deswal](https://linkedin.com/in/harshit-deswal/)
