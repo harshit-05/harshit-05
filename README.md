@@ -37,12 +37,13 @@
   </picture>
 </p>
 
-## Featured work
+## 🚀 Featured work
 
-### [RAG_QA_System](https://github.com/harshit-05/RAG_QA_System)
+### 🔎 [RAG_QA_System](https://github.com/harshit-05/RAG_QA_System)
 
 Local, config-driven Q&A over your own documents. Answers cite their sources and nothing leaves your machine.
-CI blocks on lint, types, tests (80% coverage floor) and a dependency audit.
+
+`Python` `LangChain` `FAISS` `Ollama` `uv` `pytest` `mypy` `GitHub Actions`
 
 ```mermaid
 flowchart LR
@@ -55,12 +56,14 @@ flowchart LR
     L --> A[Streamed answer + sources]
 ```
 
-**Focus:** RAG · config validation · CI gates · reproducible setup with uv
-**Honest limitation:** answers can misstate facts and faithfulness isn't measured yet (an evaluation gate is on the roadmap). On CPU, answers take minutes.
+- **Engineering:** config validated before anything loads; CI blocks on lint, types, tests (80% coverage floor) and a dependency audit
+- **Honest limitation:** answers can misstate facts and faithfulness isn't measured yet (an evaluation gate is on the roadmap); on CPU, answers take minutes
 
-### [suspect_tracking_system](https://github.com/harshit-05/suspect_tracking_system)
+### 🎯 [suspect_tracking_system](https://github.com/harshit-05/suspect_tracking_system)
 
-Real-time person detection and tracking on CCTV footage. Click a bounding box to follow someone, with a zoomed picture-in-picture view.
+Real-time person detection and tracking on CCTV footage. Click a bounding box to follow someone in a zoomed picture-in-picture view.
+
+`Python` `PyTorch` `OpenCV` `YOLOv8` `DeepSORT`
 
 ```mermaid
 flowchart LR
@@ -74,8 +77,8 @@ flowchart LR
     Z --> O
 ```
 
-**Focus:** object detection · multi-object tracking · interactive OpenCV UI
-**Honest limitation:** `main.py` can't run until a pending ByteTrack fix lands. The DeepSORT evaluation pipeline works.
+- **Engineering:** detector and tracker are separate modules, with DeepSORT and ByteTrack wrappers behind one interface
+- **Honest limitation:** `main.py` can't run until a pending ByteTrack fix lands; the DeepSORT evaluation pipeline works
 
 <!-- TODO(harshit): OrienterNet-Location-Predictor and AI-Nav-SLAM-Explorer have empty READMEs.
      Add a short description of each here if you want them featured. -->
