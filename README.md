@@ -128,7 +128,7 @@ flowchart LR
   </picture>
 </p>
 
-## Recent activity
+## ⚡ Recent activity
 
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
@@ -136,3 +136,15 @@ Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 - [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): close s2-1 and point the board at s2-2 (2026-10-02)
 <!--END_ACTIVITY-->
 
+## 🤝 Connect
+
+<p align="center">
+  <a href="mailto:harshitdeswal17@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://linkedin.com/in/harshit-deswal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/harshit-05?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories"></a>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img src="assets/footer-light.svg" width="100%" alt="">
+</picture>
