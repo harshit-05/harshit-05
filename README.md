@@ -36,7 +36,7 @@ Each row ends with the limitation the project's own README admits to.
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 <!--START_ACTIVITY-->
-_Not generated yet. Run the "Update recent activity" workflow once after merging._
+_No recent public activity._
 <!--END_ACTIVITY-->
 
 ## Stack
