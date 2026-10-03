@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="480" height="220" role="img" aria-label="Illustration: training and validation loss curves drawing over 50 epochs">
+<style>
+  .s { font: 500 11px ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #59636e; }
+  .ln { fill: none; stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 7s ease-in-out infinite; }
+  @keyframes draw { 0% { stroke-dashoffset: 1; opacity: 1; } 70%,90% { stroke-dashoffset: 0; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 0; } }
+  .bar { animation: fill 7s ease-in-out infinite; transform-box: fill-box; transform-origin: left; }
+  @keyframes fill { 0% { transform: scaleX(0); } 70%,100% { transform: scaleX(1); } }
+</style>
+<rect x=".5" y=".5" width="479" height="219" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<line x1="48" y1="30.0" x2="460" y2="30.0" stroke="#d0d7de" stroke-dasharray="3 4"/><line x1="48" y1="67.5" x2="460" y2="67.5" stroke="#d0d7de" stroke-dasharray="3 4"/><line x1="48" y1="105.0" x2="460" y2="105.0" stroke="#d0d7de" stroke-dasharray="3 4"/><line x1="48" y1="142.5" x2="460" y2="142.5" stroke="#d0d7de" stroke-dasharray="3 4"/><line x1="48" y1="180.0" x2="460" y2="180.0" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<line x1="48" y1="180" x2="460" y2="180" stroke="#d0d7de"/>
+<line x1="48" y1="30" x2="48" y2="180" stroke="#d0d7de"/>
+<text x="14" y="34" class="s">1.0</text><text x="14" y="184" class="s">0.0</text>
+<path d="M48.0,33.0 L56.2,47.2 L64.5,59.9 L72.7,71.3 L81.0,81.4 L89.2,90.5 L97.4,98.7 L105.7,106.0 L113.9,112.5 L122.2,118.3 L130.4,123.6 L138.6,128.2 L146.9,132.4 L155.1,136.2 L163.4,139.5 L171.6,142.5 L179.8,145.2 L188.1,147.6 L196.3,149.7 L204.6,151.7 L212.8,153.4 L221.0,154.9 L229.3,156.3 L237.5,157.5 L245.8,158.6 L254.0,159.6 L262.2,160.5 L270.5,161.3 L278.7,162.0 L287.0,162.6 L295.2,163.2 L303.4,163.7 L311.7,164.1 L319.9,164.5 L328.2,164.9 L336.4,165.2 L344.6,165.5 L352.9,165.8 L361.1,166.0 L369.4,166.2 L377.6,166.4 L385.8,166.6 L394.1,166.7 L402.3,166.9 L410.6,167.0 L418.8,167.1 L427.0,167.2 L435.3,167.3 L443.5,167.3 L451.8,167.4 L460.0,167.5" pathLength="1" class="ln" stroke="#0969da"/>
+<path d="M48.0,33.0 L56.2,43.7 L64.5,53.4 L72.7,62.4 L81.0,70.5 L89.2,77.9 L97.4,84.7 L105.7,90.9 L113.9,96.6 L122.2,101.7 L130.4,106.4 L138.6,110.8 L146.9,114.7 L155.1,118.3 L163.4,121.6 L171.6,124.5 L179.8,127.3 L188.1,129.8 L196.3,132.1 L204.6,134.1 L212.8,136.0 L221.0,137.8 L229.3,139.4 L237.5,140.8 L245.8,142.1 L254.0,143.3 L262.2,144.4 L270.5,145.4 L278.7,146.4 L287.0,147.2 L295.2,148.0 L303.4,148.5 L311.7,148.9 L319.9,149.1 L328.2,149.2 L336.4,149.1 L344.6,149.0 L352.9,148.7 L361.1,148.4 L369.4,147.9 L377.6,147.4 L385.8,146.8 L394.1,146.1 L402.3,145.4 L410.6,144.5 L418.8,143.7 L427.0,142.7 L435.3,141.7 L443.5,140.7 L451.8,139.6 L460.0,138.4" pathLength="1" class="ln" stroke="#8250df"/>
+<text x="310" y="34" class="s"><tspan fill="#0969da">― loss</tspan>   <tspan fill="#8250df">― val_loss</tspan></text>
+<text x="48" y="206" class="s">epoch 1 → 50</text>
+<rect x="158" y="196" width="302" height="8" rx="4" fill="#d0d7de"/>
+<rect x="158" y="196" width="302" height="8" rx="4" fill="#1a7f37" class="bar"/>
+</svg>

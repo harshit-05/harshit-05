@@ -214,8 +214,10 @@ def footer(t):
 
 
 def main():
+    from scenes import SCENES
+
     for name, theme in THEMES.items():
-        for part, fn in (("header", header), ("terminal", terminal), ("stack", stack), ("footer", footer)):
+        for part, fn in (("header", header), ("terminal", terminal), ("stack", stack), ("footer", footer)) + SCENES:
             (OUT / f"{part}-{name}.svg").write_text(fn(theme))
     print("wrote", sorted(p.name for p in OUT.glob("*.svg")))
 

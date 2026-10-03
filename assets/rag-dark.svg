@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-label="Illustration: a question is embedded, the five nearest chunks are retrieved and a cited answer is generated">
+<style>
+  .s { font: 500 11px ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #8b949e; }
+  .q { font: 500 12px -apple-system, 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #e6edf3; }
+  .a { font: 400 11.5px -apple-system, 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #e6edf3; }
+  .c { font: 600 11px ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, 'Liberation Mono', monospace; fill: #58a6ff; }
+  .k1 { animation: k1 9s infinite; } .k2 { animation: k2 9s infinite; }
+  .k3 { animation: k3 9s infinite; } .k4 { animation: k4 9s infinite; }
+  @keyframes k1 { 0%,4% { opacity: 0; } 8%,92% { opacity: 1; } 100% { opacity: 0; } }
+  @keyframes k2 { 0%,18% { opacity: 0; } 24%,92% { opacity: 1; } 100% { opacity: 0; } }
+  @keyframes k3 { 0%,34% { opacity: 0; } 42%,92% { opacity: 1; } 100% { opacity: 0; } }
+  @keyframes k4 { 0%,52% { opacity: 0; } 60%,92% { opacity: 1; } 100% { opacity: 0; } }
+</style>
+<rect x=".5" y=".5" width="479" height="299" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="16" y="28" class="s">1 · question</text>
+<g class="k1"><rect x="16" y="40" width="180" height="58" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="28" y="64" class="q">How does the system detect</text><text x="28" y="82" class="q">crowds and threats?</text></g>
+<text x="214" y="28" class="s">2 · embed + nearest chunks (FAISS)</text>
+<rect x="206" y="40" width="258" height="170" rx="10" fill="none" stroke="#30363d" stroke-dasharray="4 4"/>
+<circle cx="272.1" cy="132.5" r="3" fill="#30363d"/>
+<circle cx="303.8" cy="141.4" r="3" fill="#30363d"/>
+<circle cx="365.2" cy="61.7" r="3" fill="#30363d"/>
+<circle cx="218.2" cy="175.9" r="3" fill="#30363d"/>
+<circle cx="277.2" cy="86.7" r="3" fill="#30363d"/>
+<circle cx="454.0" cy="121.6" r="3" fill="#30363d"/>
+<circle cx="415.8" cy="122.5" r="3" fill="#30363d"/>
+<circle cx="368.4" cy="74.3" r="3" fill="#30363d"/>
+<circle cx="367.4" cy="180.5" r="3" fill="#30363d"/>
+<circle cx="340.6" cy="161.7" r="3" fill="#30363d"/>
+<circle cx="376.1" cy="61.5" r="3" fill="#30363d"/>
+<circle cx="397.0" cy="139.5" r="3" fill="#30363d"/>
+<circle cx="287.3" cy="56.6" r="3" fill="#30363d"/>
+<circle cx="422.7" cy="122.0" r="3" fill="#30363d"/>
+<circle cx="387.5" cy="182.1" r="3" fill="#30363d"/>
+<circle cx="386.4" cy="188.3" r="3" fill="#30363d"/>
+<circle cx="309.8" cy="170.5" r="3" fill="#30363d"/>
+<circle cx="321.7" cy="190.5" r="3" fill="#30363d"/>
+<circle cx="425.9" cy="66.4" r="3" fill="#30363d"/>
+<circle cx="247.6" cy="84.1" r="3" fill="#30363d"/>
+<circle cx="446.7" cy="116.6" r="3" fill="#30363d"/>
+<circle cx="365.4" cy="96.6" r="3" fill="#30363d"/>
+<circle cx="336.7" cy="109.1" r="3" fill="#30363d"/>
+<circle cx="299.2" cy="138.6" r="3" fill="#30363d"/>
+<circle cx="355.2" cy="185.8" r="3" fill="#30363d"/>
+<circle cx="378.7" cy="189.5" r="3" fill="#30363d"/>
+<circle cx="420.5" cy="198.7" r="3" fill="#30363d"/>
+<circle cx="376.1" cy="76.1" r="3" fill="#30363d"/>
+<circle cx="421.6" cy="194.8" r="3" fill="#30363d"/>
+<circle cx="432.1" cy="136.2" r="3" fill="#30363d"/>
+<circle cx="386.3" cy="83.2" r="3" fill="#30363d"/>
+<circle cx="414.6" cy="136.9" r="3" fill="#30363d"/>
+<circle cx="283.4" cy="61.4" r="3" fill="#30363d"/>
+<circle cx="419.9" cy="198.5" r="3" fill="#30363d"/>
+<g class="k3">
+<line x1="330" y1="120" x2="336.7" y2="109.1" stroke="#bc8cff" stroke-width="1.2"/><circle cx="336.7" cy="109.1" r="6" fill="none" stroke="#bc8cff" stroke-width="2"/><circle cx="336.7" cy="109.1" r="3" fill="#bc8cff"/>
+<line x1="330" y1="120" x2="303.8" y2="141.4" stroke="#bc8cff" stroke-width="1.2"/><circle cx="303.8" cy="141.4" r="6" fill="none" stroke="#bc8cff" stroke-width="2"/><circle cx="303.8" cy="141.4" r="3" fill="#bc8cff"/>
+<line x1="330" y1="120" x2="299.2" y2="138.6" stroke="#bc8cff" stroke-width="1.2"/><circle cx="299.2" cy="138.6" r="6" fill="none" stroke="#bc8cff" stroke-width="2"/><circle cx="299.2" cy="138.6" r="3" fill="#bc8cff"/>
+<line x1="330" y1="120" x2="365.4" y2="96.6" stroke="#bc8cff" stroke-width="1.2"/><circle cx="365.4" cy="96.6" r="6" fill="none" stroke="#bc8cff" stroke-width="2"/><circle cx="365.4" cy="96.6" r="3" fill="#bc8cff"/>
+<line x1="330" y1="120" x2="340.6" y2="161.7" stroke="#bc8cff" stroke-width="1.2"/><circle cx="340.6" cy="161.7" r="6" fill="none" stroke="#bc8cff" stroke-width="2"/><circle cx="340.6" cy="161.7" r="3" fill="#bc8cff"/>
+</g>
+<g class="k2"><path d="M196 69 C 250 69, 260 120, 320 120" fill="none" stroke="#58a6ff" stroke-width="1.5" stroke-dasharray="4 3"/>
+<circle cx="330" cy="120" r="7" fill="#58a6ff"><animate attributeName="r" values="6;9;6" dur="1.4s" repeatCount="indefinite"/></circle></g>
+<text x="16" y="232" class="s">3 · local LLM answers from the top 5 chunks</text>
+<g class="k4"><rect x="16" y="242" width="448" height="44" rx="10" fill="#0d1117" stroke="#30363d"/>
+<text x="28" y="261" class="a">Object detection plus anomaly recognition: people are counted</text>
+<text x="28" y="277" class="a">and tracked across frames …  <tspan class="c">[1] p.10  [2] p.3</tspan></text></g>
+</svg>
