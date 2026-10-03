@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Harshit Deswal: ML Engineer, applied ML, computer vision">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Harshit Deswal: ML-adjacent backend and infra engineer. MLOps, ML engineering, backend">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
   <linearGradient id="ink" x1="0" x2="1"><stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#bc8cff"/></linearGradient>
   <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#30363d"/></pattern>
   <clipPath id="type"><rect x="60" y="214" height="34" width="0">
-    <animate attributeName="width" from="0" to="480" begin="0.6s" dur="2.6s" fill="freeze"/></rect></clipPath>
+    <animate attributeName="width" from="0" to="350" begin="0.6s" dur="1.8s" fill="freeze"/></rect></clipPath>
 </defs>
 <style>
   .name { font: 700 60px -apple-system, 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #e6edf3; }
@@ -22,10 +22,10 @@
 <rect x=".5" y=".5" width="1199" height="319" rx="16" fill="none" stroke="#30363d"/>
 <text x="60" y="78" class="mono fade">~/harshit-05 $ python profile.py</text>
 <text x="60" y="146" class="name fade d1">Harshit Deswal</text>
-<text x="60" y="190" class="sub fade d2">ML Engineer · Applied ML · Computer Vision</text>
-<g clip-path="url(#type)"><text x="60" y="238" class="cmd">&gt; tested, reproducible, honest about limits</text></g>
+<text x="60" y="190" class="sub fade d2">ML-adjacent Backend &amp; Infra Engineer</text>
+<g clip-path="url(#type)"><text x="60" y="238" class="cmd">&gt; MLOps · ML Engineer · Backend</text></g>
 <rect x="60" y="222" width="10" height="20" fill="#3fb950" class="cur">
-  <animate attributeName="x" from="60" to="528" begin="0.6s" dur="2.6s" fill="freeze"/></rect>
+  <animate attributeName="x" from="60" to="402" begin="0.6s" dur="1.8s" fill="freeze"/></rect>
 
 <g stroke="#30363d" stroke-width="1">
 <line x1="780" y1="108.0" x2="880" y2="56.0"/>
