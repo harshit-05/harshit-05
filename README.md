@@ -200,7 +200,7 @@ flowchart LR
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 <!--START_ACTIVITY-->
-- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): close s2-1 and point the board at s2-2 (2026-10-02)
+- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): record the s1-7 review follow-ups (2026-10-01)
 <!--END_ACTIVITY-->
 
 <picture>
