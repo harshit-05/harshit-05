@@ -33,3 +33,8 @@ Only what's in the projects above.
 - **Tooling:** uv, ruff, mypy, pytest, GitHub Actions
 
 <!-- TODO(harshit): add anything else you've really used (e.g. Docker, FastAPI, TypeScript), especially from Teemo.ai/DRDO. -->
+
+## Contact
+
+- Email: <!-- TODO(harshit): email --> 
+- LinkedIn: <!-- TODO(harshit): LinkedIn URL -->
