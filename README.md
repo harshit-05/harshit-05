@@ -1,35 +1,64 @@
-# Harshit Deswal
+<h1 align="center">Harshit Deswal</h1>
 
-**Applied ML, with MLOps as my way in.**
-I like ML systems that are tested, reproducible, and upfront about where they fall short.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=520&lines=Applied+ML+%C2%B7+MLOps+as+my+way+in;RAG+pipelines+%C2%B7+computer+vision;Tested%2C+reproducible%2C+honest+about+limits" alt="Applied ML, RAG pipelines, computer vision" />
+</p>
 
-Third-year B.Tech student in Computer Science & Communication Engineering (graduating 2027).
-AI/Software Engineer intern at Teemo.ai. Previously AI research at DRDO's Young Scientist Lab.
+<p align="center">
+  Third-year B.Tech student in Computer Science &amp; Communication Engineering (graduating 2027).<br>
+  AI/Software Engineer intern at Teemo.ai. Previously AI research at DRDO's Young Scientist Lab.
+</p>
 
-## Projects
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake.svg">
+    <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake.svg">
+  </picture>
+</p>
 
-Each row ends with the limitation the project's own README admits to.
+## Featured work
 
-| Project | What it does | Stack | Honest limitation |
-| --- | --- | --- | --- |
-| [**RAG_QA_System**](https://github.com/harshit-05/RAG_QA_System) | Local, config-driven Q&A over your own documents. Answers cite their sources, and nothing leaves your machine. Config is validated at load, and CI gates on lint, types, tests (80% coverage floor) and a dependency audit. | Python, LangChain, FAISS, Ollama, uv | Answers can misstate facts and faithfulness isn't measured yet (an evaluation gate is on the roadmap). On CPU, answers take minutes. |
-| [**suspect_tracking_system**](https://github.com/harshit-05/suspect_tracking_system) | Real-time person detection and tracking on CCTV footage. Click a bounding box to follow someone, with a zoomed picture-in-picture view. | Python, YOLOv8, DeepSORT | `main.py` can't run until a pending ByteTrack fix lands. The DeepSORT evaluation pipeline works. |
+### [RAG_QA_System](https://github.com/harshit-05/RAG_QA_System)
+
+Local, config-driven Q&A over your own documents. Answers cite their sources and nothing leaves your machine.
+CI blocks on lint, types, tests (80% coverage floor) and a dependency audit.
+
+```mermaid
+flowchart LR
+    D[PDF / DOCX / TXT / MD] --> C[Chunks<br/>1000 chars, 150 overlap]
+    C --> E[MiniLM embeddings]
+    E --> F[(FAISS index)]
+    Q[Question] --> R[Top 5 chunks]
+    F --> R
+    R --> L[Local LLM via Ollama]
+    L --> A[Streamed answer + sources]
+```
+
+**Focus:** RAG · config validation · CI gates · reproducible setup with uv
+**Honest limitation:** answers can misstate facts and faithfulness isn't measured yet (an evaluation gate is on the roadmap). On CPU, answers take minutes.
+
+### [suspect_tracking_system](https://github.com/harshit-05/suspect_tracking_system)
+
+Real-time person detection and tracking on CCTV footage. Click a bounding box to follow someone, with a zoomed picture-in-picture view.
+
+```mermaid
+flowchart LR
+    V[Video frame] --> Y[YOLOv8 detector]
+    Y --> P[Keep persons only]
+    P --> T[DeepSORT tracker]
+    T --> D[Boxes + track IDs]
+    D --> S{Suspect clicked?}
+    S -- yes --> Z[Highlight + zoomed PiP view]
+    S -- no --> O[Output video]
+    Z --> O
+```
+
+**Focus:** object detection · multi-object tracking · interactive OpenCV UI
+**Honest limitation:** `main.py` can't run until a pending ByteTrack fix lands. The DeepSORT evaluation pipeline works.
 
 <!-- TODO(harshit): OrienterNet-Location-Predictor and AI-Nav-SLAM-Explorer have empty READMEs.
-     Add a one-line description of each here if you want them featured. -->
-
-## Experience
-
-**AI/Software Engineer Intern, Teemo.ai** (remote) <!-- TODO(harshit): resume says Feb 2026 - Aug 2026; confirm whether this is ongoing -->
-- Built the backend for a multi-tenant school platform: 230+ REST endpoints across 26 FastAPI domain modules on PostgreSQL (async SQLAlchemy, 72 Alembic migrations), with JWT and Google sign-in and tenant-scoped access control.
-- Implemented AI grading for photographed student work: a background job sends images to a vision LLM (provider chosen by config), and a teacher reviews the score and rubric breakdown before any grade is released.
-- Put email, push notifications, background jobs and the AI provider behind swappable interfaces, so the same code runs on local mocks or real providers.
-- Wrote 1,100+ pytest tests plus AWS CDK stacks (ECS Fargate, RDS, S3, CloudFront) and GitHub Actions workflows that deploy the API and web apps.
-
-**AI/ML Research Intern, DRDO Young Scientist Laboratory (AI)**, Bangalore
-- Built real-time object detection pipelines in PyTorch that ran at 35+ FPS on live video.
-- Optimized NLP pipelines for domain-specific text analysis, benchmarking accuracy and latency before and after each change.
-- Prototyped a real-time SLAM system on multi-sensor data and measured trajectory accuracy and end-to-end latency.
+     Add a short description of each here if you want them featured. -->
 
 ## Recent activity
 
@@ -41,13 +70,15 @@ Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 ## Stack
 
-- **Languages:** Python, Java, SQL, C
-- **Backend:** FastAPI, PostgreSQL, SQLAlchemy, Alembic, Pydantic, REST, JWT, OAuth/OIDC
-- **ML:** PyTorch, OpenCV, YOLOv8, LangChain, FAISS, Ollama, Hugging Face
-- **Cloud and tooling:** AWS (ECS, RDS, S3, CloudFront, CDK), Docker, GitHub Actions, Linux, uv, ruff, mypy, pytest
-- **Certifications:** Red Hat System Administration I (RH124), Oracle DevOps Professional
+<p>
+  <img src="https://skillicons.dev/icons?i=py,pytorch,opencv,fastapi,postgres,aws,docker,githubactions,linux,git&perline=10" alt="Python, PyTorch, OpenCV, FastAPI, PostgreSQL, AWS, Docker, GitHub Actions, Linux, Git" />
+</p>
+
+Also: YOLOv8 · DeepSORT · LangChain · FAISS · Ollama · uv · pytest · mypy · ruff
 
 ## Contact
 
-- Email: [harshitdeswal17@gmail.com](mailto:harshitdeswal17@gmail.com)
-- LinkedIn: [harshit-deswal](https://linkedin.com/in/harshit-deswal/)
+<p>
+  <a href="mailto:harshitdeswal17@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://linkedin.com/in/harshit-deswal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</p>
