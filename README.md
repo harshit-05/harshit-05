@@ -41,13 +41,11 @@ _Not generated yet. Run the "Update recent activity" workflow once after merging
 
 ## Stack
 
-Only what's in the projects above.
-
-- **Languages:** Python
-- **ML:** PyTorch, LangChain, FAISS, Ollama, YOLOv8 (Ultralytics), DeepSORT
-- **Tooling:** uv, ruff, mypy, pytest, GitHub Actions
-
-<!-- TODO(harshit): add anything else you've really used (e.g. Docker, FastAPI, TypeScript), especially from Teemo.ai/DRDO. -->
+- **Languages:** Python, Java, SQL, C
+- **Backend:** FastAPI, PostgreSQL, SQLAlchemy, Alembic, Pydantic, REST, JWT, OAuth/OIDC
+- **ML:** PyTorch, OpenCV, YOLOv8, LangChain, FAISS, Ollama, Hugging Face
+- **Cloud and tooling:** AWS (ECS, RDS, S3, CloudFront, CDK), Docker, GitHub Actions, Linux, uv, ruff, mypy, pytest
+- **Certifications:** Red Hat System Administration I (RH124), Oracle DevOps Professional
 
 ## Contact
 
