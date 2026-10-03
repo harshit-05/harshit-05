@@ -1,10 +1,13 @@
-# Harshit Deswal
+<h1 align="center">Harshit Deswal</h1>
 
-**Applied ML, with MLOps as my way in.**
-I like ML systems that are tested, reproducible, and upfront about where they fall short.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=520&lines=Applied+ML+%C2%B7+MLOps+as+my+way+in;RAG+pipelines+%C2%B7+computer+vision;Tested%2C+reproducible%2C+honest+about+limits" alt="Applied ML, RAG pipelines, computer vision" />
+</p>
 
-Third-year B.Tech student in Computer Science & Communication Engineering (graduating 2027).
-AI/Software Engineer intern at Teemo.ai. Previously AI research at DRDO's Young Scientist Lab.
+<p align="center">
+  Third-year B.Tech student in Computer Science &amp; Communication Engineering (graduating 2027).<br>
+  AI/Software Engineer intern at Teemo.ai. Previously AI research at DRDO's Young Scientist Lab.
+</p>
 
 ## Projects
 
