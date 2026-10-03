@@ -88,13 +88,14 @@ Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 - [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): close s2-1 and point the board at s2-2 (2026-10-02)
 <!--END_ACTIVITY-->
 
-## Stack
+## 🛠️ Tech stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=py,pytorch,opencv,fastapi,postgres,aws,docker,githubactions,linux,git&perline=10" alt="Python, PyTorch, OpenCV, FastAPI, PostgreSQL, AWS, Docker, GitHub Actions, Linux, Git" />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+    <img src="assets/stack-light.svg" width="80%" alt="Languages: Python, Java, C, SQL. ML and vision: PyTorch, OpenCV, YOLOv8. LLMs and RAG: LangChain, Ollama, Hugging Face, FAISS. Backend: FastAPI, PostgreSQL, SQLAlchemy, Pydantic. Ship and run: Docker, AWS, GitHub Actions, Arch Linux, Git, uv, pytest.">
+  </picture>
 </p>
-
-Also: YOLOv8 · DeepSORT · LangChain · FAISS · Ollama · uv · pytest · mypy · ruff
 
 ## Contact
 
