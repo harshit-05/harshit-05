@@ -24,6 +24,14 @@ Each row ends with the limitation the project's own README admits to.
 - **Before:** AI research at DRDO's Young Scientist Lab. <!-- TODO(harshit): one line on the topic or project -->
 - **Heading toward:** applied ML, starting from MLOps.
 
+## Recent activity
+
+Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
+
+<!--START_ACTIVITY-->
+_Not generated yet. Run the "Update recent activity" workflow once after merging._
+<!--END_ACTIVITY-->
+
 ## Stack
 
 Only what's in the projects above.
