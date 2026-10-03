@@ -62,9 +62,15 @@ Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 ## Stack
 
-Python · PyTorch · OpenCV · YOLOv8 · LangChain · FAISS · Ollama · FastAPI · PostgreSQL · AWS · Docker · GitHub Actions
+<p>
+  <img src="https://skillicons.dev/icons?i=py,pytorch,opencv,fastapi,postgres,aws,docker,githubactions,linux,git&perline=10" alt="Python, PyTorch, OpenCV, FastAPI, PostgreSQL, AWS, Docker, GitHub Actions, Linux, Git" />
+</p>
+
+Also: YOLOv8 · DeepSORT · LangChain · FAISS · Ollama · uv · pytest · mypy · ruff
 
 ## Contact
 
-- Email: [harshitdeswal17@gmail.com](mailto:harshitdeswal17@gmail.com)
-- LinkedIn: [harshit-deswal](https://linkedin.com/in/harshit-deswal/)
+<p>
+  <a href="mailto:harshitdeswal17@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://linkedin.com/in/harshit-deswal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</p>
