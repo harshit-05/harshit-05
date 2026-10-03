@@ -29,11 +29,12 @@
 </tr>
 </table>
 
+## 🛠️ Tech stack
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake.svg">
-    <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+    <img src="assets/stack-light.svg" width="80%" alt="Languages: Python, Java, C, SQL. ML and vision: PyTorch, OpenCV, YOLOv8. LLMs and RAG: LangChain, Ollama, Hugging Face, FAISS. Backend: FastAPI, PostgreSQL, SQLAlchemy, Pydantic. Ship and run: Docker, AWS, GitHub Actions, Arch Linux, Git, uv, pytest.">
   </picture>
 </p>
 
@@ -83,6 +84,50 @@ flowchart LR
 <!-- TODO(harshit): OrienterNet-Location-Predictor and AI-Nav-SLAM-Explorer have empty READMEs.
      Add a short description of each here if you want them featured. -->
 
+## 📊 GitHub stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=harshit-05&show_icons=true&hide_border=true&theme=github_dark">
+    <img src="https://github-readme-stats.vercel.app/api?username=harshit-05&show_icons=true&hide_border=true&theme=default" height="165" alt="GitHub stats">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=harshit-05&layout=compact&hide_border=true&theme=github_dark">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshit-05&layout=compact&hide_border=true&theme=default" height="165" alt="Top languages">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=harshit-05&theme=github-dark-blue&hide_border=true">
+    <img src="https://streak-stats.demolab.com?user=harshit-05&theme=default&hide_border=true" alt="GitHub streak">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=harshit-05&theme=github-compact&hide_border=true">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=harshit-05&theme=minimal&hide_border=true" width="100%" alt="Contribution activity graph">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=harshit-05&theme=darkhub&no-frame=true&no-bg=true&margin-w=6">
+    <img src="https://github-profile-trophy.vercel.app/?username=harshit-05&theme=flat&no-frame=true&no-bg=true&margin-w=6" alt="GitHub trophies">
+  </picture>
+</p>
+
+## 🐍 Contribution snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake.svg">
+    <img alt="Contribution graph snake" src="https://raw.githubusercontent.com/harshit-05/harshit-05/output/github-snake.svg">
+  </picture>
+</p>
+
 ## Recent activity
 
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
@@ -91,18 +136,3 @@ Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 - [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): close s2-1 and point the board at s2-2 (2026-10-02)
 <!--END_ACTIVITY-->
 
-## 🛠️ Tech stack
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-    <img src="assets/stack-light.svg" width="80%" alt="Languages: Python, Java, C, SQL. ML and vision: PyTorch, OpenCV, YOLOv8. LLMs and RAG: LangChain, Ollama, Hugging Face, FAISS. Backend: FastAPI, PostgreSQL, SQLAlchemy, Pydantic. Ship and run: Docker, AWS, GitHub Actions, Arch Linux, Git, uv, pytest.">
-  </picture>
-</p>
-
-## Contact
-
-<p>
-  <a href="mailto:harshitdeswal17@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://linkedin.com/in/harshit-deswal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-</p>
