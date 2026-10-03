@@ -77,7 +77,7 @@ flowchart LR
     Z --> O
 ```
 
-- **Engineering:** detector and tracker are separate modules, with DeepSORT and ByteTrack wrappers behind one interface
+- **Engineering:** detector and tracker live in separate modules, with wrappers for both DeepSORT and ByteTrack
 - **Honest limitation:** `main.py` can't run until a pending ByteTrack fix lands; the DeepSORT evaluation pipeline works
 
 <!-- TODO(harshit): OrienterNet-Location-Predictor and AI-Nav-SLAM-Explorer have empty READMEs.
