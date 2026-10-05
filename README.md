@@ -200,7 +200,7 @@ flowchart LR
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 <!--START_ACTIVITY-->
-- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): close s2-3 and point the board at s2-4 (2026-10-03)
+- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(eval): correct the longest corpus path length in a docstring (2026-10-04)
 <!--END_ACTIVITY-->
 
 <picture>
