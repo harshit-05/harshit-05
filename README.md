@@ -200,7 +200,7 @@ flowchart LR
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 <!--START_ACTIVITY-->
-- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(eval): correct the longest corpus path length in a docstring (2026-10-04)
+- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): Merge pull request #12 from harshit-05/feat/s2-6-ingest-manifest (2026-10-05)
 <!--END_ACTIVITY-->
 
 <picture>
