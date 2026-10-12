@@ -200,7 +200,7 @@ flowchart LR
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 <!--START_ACTIVITY-->
-- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): perf(config): set ollama num_thread to the measured fastest (2026-10-11)
+- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): Merge pull request #14 from harshit-05/chore/s2-5b-tier2-baseline (2026-10-11)
 <!--END_ACTIVITY-->
 
 <picture>
