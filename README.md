@@ -200,7 +200,8 @@ flowchart LR
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 <!--START_ACTIVITY-->
-- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): Merge pull request #14 from harshit-05/chore/s2-5b-tier2-baseline (2026-10-11)
+- [harshit-05/suspect_tracking_system](https://github.com/harshit-05/suspect_tracking_system): docs(process): mark story 012 done after review (2026-10-12)
+- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): record s2-7's ci run and point the board at its reviews (2026-10-12)
 <!--END_ACTIVITY-->
 
 <picture>
