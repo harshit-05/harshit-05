@@ -200,7 +200,7 @@ flowchart LR
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 <!--START_ACTIVITY-->
-- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): Merge pull request #16 from harshit-05/fix/s2-8-cli-polish (2026-10-13)
+- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): Merge pull request #17 from harshit-05/chore/s2-9-phase-2-exit (2026-10-14)
 - [harshit-05/suspect_tracking_system](https://github.com/harshit-05/suspect_tracking_system): docs(process): mark story 012 done after review (2026-10-12)
 <!--END_ACTIVITY-->
 
