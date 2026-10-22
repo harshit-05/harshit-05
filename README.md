@@ -200,7 +200,7 @@ flowchart LR
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 <!--START_ACTIVITY-->
-- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): record s3-4's red audit and the certifi bump (2026-10-21)
+- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): record s3-4's first review and its green head (2026-10-21)
 - [harshit-05/suspect_tracking_system](https://github.com/harshit-05/suspect_tracking_system): Merge pull request #4 from harshit-05/chore/story-014-mot17-data (2026-10-20)
 <!--END_ACTIVITY-->
 
