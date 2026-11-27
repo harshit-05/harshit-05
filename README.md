@@ -200,7 +200,7 @@ flowchart LR
 Refreshed daily by a [workflow](.github/workflows/recent-activity.yml).
 
 <!--START_ACTIVITY-->
-- [harshit-05/RAG_QA_System](https://github.com/harshit-05/RAG_QA_System): docs(stories): record s3-8's first review (2026-10-26)
+_No recent public activity._
 <!--END_ACTIVITY-->
 
 <picture>
